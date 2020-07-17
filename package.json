@@ -1,0 +1,26 @@
+{
+  "name": "coincounter",
+  "version": "1.0.0",
+  "description": "Conversor de moedas para BRL - Real",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [
+    "conversor",
+    "moedas",
+    "real",
+    "dolar"
+  ],
+  "author": "Gabriel Miranda",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}

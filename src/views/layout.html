@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    {% block title %}
+      <title>CoinCounter - Money Convert</title>
+    {% endblock title %}
+
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <meta name='author' content='Gabriel Miranda'/>
+    <meta name='keywords' content='conversor,moedas,dolar,real,convert,money,dinheiro'/>
+    <meta name='description' content='Conversor de moedas diversas'/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href='styles/main.css' rel='stylesheet'/>
+    <link href='styles/header.css' rel='stylesheet'/>
+    {% block styles %}{% endblock styles %}
+    <link href='styles/footer.css' rel='stylesheet'/>
+    <link href='styles/responsive.css' rel='stylesheet'/>
+  </head>
+
+  <body>
+
+    {% include 'partials/page-header.html' %}
+
+    {% block content %}{% endblock content %}
+
+    {% include 'partials/page-footer.html' %}
+
+    {% block scripts %}{% endblock scripts %}
+
+  </body>
+</html>

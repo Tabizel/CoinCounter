@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block styles %}
+  <link href='styles/home.css' rel='stylesheet'/>
+{% endblock styles%}
+
+{% block content %}
+
+  <main>
+    <nav class='left-nav'>
+      <div class="cotacoes">
+        <iframe src="https://br.widgets.investing.com/live-currency-cross-rates?theme=lightTheme&hideTitle=true&roundedCorners=true&cols=last,changePerc,time&pairs=2103,1617,1485,1523,1736,1890" width="300" height="400" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
+        <p class='poweredBy'>Desenvolvido por
+          <a href="https://br.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LIVE_CURRENCY_X_RATES&amp;utm_content=Footer%20Link" target="_blank" rel="nofollow">Investing.com</a>
+        </p>
+      </div>
+      <!--cotacoes-->
+    </nav>
+
+    <nav class='right-nav'>
+      <div class="cotacoes-cripto">
+        <iframe src="https://br.widgets.investing.com/crypto-currency-rates?theme=lightTheme&hideTitle=true&roundedCorners=true&cols=last,changePerc,time&pairs=1010777,1024807,1129103,1156338,1024808,1097505,1010779,1010776" width="300" height="400" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
+        <p class='poweredBy'>Desenvolvido por
+          <a href="https://br.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LIVE_CURRENCY_X_RATES&amp;utm_content=Footer%20Link" target="_blank" rel="nofollow">Investing.com</a>
+        </p>
+      </div>
+      <!--cotacoes-cripto-->
+    </nav>
+
+    <form method='GET' action='/cotacao'>
+      <h2>Converter para R$</h2>
+      <input type='text' name='cotacao' placeholder='Cotação da moeda' required="required"/>
+      <input type='text' name='quantidade' placeholder='Quanto Converter' required="required"/>
+      <input type='submit' name='conversao' value='Converter'/>
+    </form>
+
+    <div class="clear"></div>
+
+  </main>
+
+{% endblock content %}

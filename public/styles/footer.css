@@ -1,0 +1,21 @@
+footer{
+  text-align: center;
+  background-color: #246e38;
+}
+
+footer .links{
+  padding: 40px 2% 42px 2%;
+}
+
+footer p{
+  color: white;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+footer a{
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}

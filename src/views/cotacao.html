@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block styles %}
+  <link href='styles/cotacao.css' rel='stylesheet'/>
+{% endblock styles%}
+
+{% block content %}
+  <main>
+    <div class="return">
+      <button>
+        <a href='/'>Voltar</a>
+      </button>
+    </div>
+
+    {% if error %}
+      <div class="resultado">
+        <h2>{{error}}</h2>
+      </div>
+
+    {% else %}
+      <div class="resultado">
+        <h2>Resultado:</h2>
+        <p>{{quantidade}}
+          dessa moeda na cotação de
+          {{cotacao}}
+          é equivalente a:
+          <span>{{conversao}}</span>
+          reais
+        </p>
+      </div>
+
+    {% endif %}
+
+    <div class="clear"></div>
+
+  </main>
+
+{% endblock content %}

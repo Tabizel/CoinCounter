@@ -1,0 +1,31 @@
+header{
+  margin: 0 auto;
+  text-align: center;
+  background-color: #246e38;
+}
+
+header img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+
+header h1{
+  padding: 40px 2% 8px 2%;
+}
+
+header a span{
+  font-size: 38px;
+  color: white;
+  cursor: pointer;
+}
+
+header h4{
+  color: white;
+  font-size: 18px;
+  padding-bottom: 30px;
+  font-weight: normal;
+  font-style: italic;
+}

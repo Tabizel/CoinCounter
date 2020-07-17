@@ -1,0 +1,50 @@
+main{
+  width: 100%;
+  height: 70vh;
+  margin: 0 auto;
+  background-color: #cdf7d9;
+}
+
+.return{
+  float: right;
+  margin: 20px 20%;
+}
+
+.return button{
+  padding: 10px 20px;
+  background-color: #cdf7d9;
+  border: 2px solid #246e38;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.return button:hover{
+  background-color: #246e38;
+}
+
+button a{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.resultado{
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.resultado h2{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.resultado p{
+  font-size: 24px;
+}
+
+.resultado p span{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
