@@ -5,8 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon src/server.js",
-    "build": "express build"
+    "start": "express start",
+    "build": ""
   },
   "keywords": [
     "conversor",
