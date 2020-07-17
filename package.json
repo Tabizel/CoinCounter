@@ -22,5 +22,13 @@
   },
   "devDependencies": {
     "jest": "^26.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tabizel/CoinCounter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tabizel/CoinCounter/issues"
+  },
+  "homepage": "https://github.com/Tabizel/CoinCounter#readme"
 }
