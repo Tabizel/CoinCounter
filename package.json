@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "test": "jest",
-    "start": "express start",
+    "start": "src/server.js",
     "build": ""
   },
   "keywords": [
