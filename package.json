@@ -5,8 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "test": "jest",
-    "start": "node src/server.js",
-    "build": "node build"
+    "start": "node src/server.js"
   },
   "keywords": [
     "conversor",
